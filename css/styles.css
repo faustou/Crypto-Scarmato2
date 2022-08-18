@@ -430,16 +430,106 @@ height: 15px;
     font-size: 1rem;
 
 }
-
+.coneccionComunidadDiscord{
+    width: 100%;
+    height: 45rem;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.imagenMobileColeccion{
+    width: 100%;
+    height: 100%;
+}
+.leyendaDeDiscord{
+    text-align: start;
+    margin-left: 1rem;
+    color: white;
+}
+.h3small{
+    font-size: 1rem;
+}
+.botonDiscord{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    background-color: rgb(231, 213, 17);
+    border-radius: 20px;
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.imagenDiscordBoton{
+    height: 15px;
+    width: 15px;
+    margin-bottom: 0.2rem;
+}
+.leyendaDeDiscord a{
+    margin-top: 5rem;
+}
+.contenedorNft{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.cardNft{
+    background-color: rgb(49, 49, 49);
+    width: 320px;
+    height: 300px;
+    border-radius: 15px;
+}
+.imagenNft{
+    background-color: gray;
+    height: 170px;
+    margin-bottom: 1rem;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.imagenNft1{
+    background-image: url(../img/bearcolection.png);
+}
+.imagenNft2{
+    background-image: url(../img/cowcolection.png);
+}
+.imagenNft3{
+    background-image: url(../img/honeycolection.png);
+}
+.coleccionesRecomendadas{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+}
+.cardNft h2{
+    font-size: 1rem;
+}
+.cardNft h2, .cardNft p{
+    color: white;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.cardNft p{
+    font-size: 0.8rem;
+}
+.cardNft h2 img{
+    width: 15px;
+    height: 15px;
+}
+@media screen and (min-width: 525px){
+    .coneccionComunidadDiscord{
+        height: 55rem;
+    }
+}
 @media screen and (min-width: 768px){
 
     .logotipoGrande{
         display: block;
         width: 15rem;
         height: 2rem;
-    }
-    .container-fluid{
-        gap: 12rem;
     }
     .logotipoChico{
         display: none;
@@ -697,5 +787,18 @@ height: 15px;
     }
     .footer-separado{
         gap: 5rem;
+    }
+    .coneccionComunidadDiscord{
+        width: 100%;
+        height: 40rem;
+        background-color: rgb(24, 24, 24);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .coleccionesRecomendadas{
+        font-size: 1.5rem;
     }
 }
